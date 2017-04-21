@@ -47,6 +47,10 @@ $secret = array("link" => "secret.php", "img" => "secret.png", "title" => "Secre
 
                 $menu = array($logout, $settings, $activity, $koin, $money, $vip, $tool, $system , $exchange_return, $exchange, $new_statistic, $user, $comment, $merchant, $dau, $game);
                 break;
+			case "demo":
+
+                $menu = array($logout, $settings, $activity, $koin, $money, $vip, $tool, $system , $exchange_return, $exchange, $new_statistic, $user, $comment, $merchant, $dau, $game);
+                break;
             case "admin":
 
                 $menu = array($logout, $secret, $settings, $activity, $koin, $money, $vip, $tool, $system, $exchange_return, $exchange, $new_statistic, $user, $comment, $merchant, $dau, $game);

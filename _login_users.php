@@ -13,6 +13,7 @@ $users = array(
     'cskh' => 'CsKh123!@#',
     'ccu' => 'ccuonly',
     'vmg' => 'vmg123!@#',
+	'demo' => 'abc123'
 //    'huong' => 'chiuchiu2023',
 //    'nguyet' => 'nguyet2023',
 //    'lam' => 'lam2023',
