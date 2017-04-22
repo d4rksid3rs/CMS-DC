@@ -89,7 +89,7 @@ $total_login = $rs2->fetch();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Game Dân gian</title>
+        <title>Diamond Casino</title>
         <?php require('header.php'); ?>
         <script>
             $(document).ready(function () {
@@ -111,7 +111,7 @@ $total_login = $rs2->fetch();
                         <tr>
                             <td width="50%">
                                 <table width=100%>
-                                    <tr><td colspan="2" align="center"><b>Game Dân gian</b></td></tr>
+                                    <tr><td colspan="2" align="center"><b>Diamond Casino</b></td></tr>
                                     <tr><td width="40%">Tổng số người online </td><td align="center"><?php echo $value1["total"] . " / " . $value1["online"]; ?></td></tr>
                                     <?php
                                     for ($i = 0; $i < sizeof($key); $i++) {

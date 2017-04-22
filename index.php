@@ -39,7 +39,7 @@ foreach ($versions as $version) {
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Game Dân gian</title>
+        <title>Diamond Casino</title>
         <?php require('header.php'); ?>
         <script>
             $(document).ready(function () {

@@ -71,7 +71,7 @@ session_start();
 
     <body>
         <div class="login">
-            <h1>GAME DÂN GIAN</h1>
+            <h1>DIAMOND CASINO</h1>
             <?php echo $login->error_login(); ?>
             <form method="post">
                 <input type="text" name="username" placeholder="Username" required="required" />
