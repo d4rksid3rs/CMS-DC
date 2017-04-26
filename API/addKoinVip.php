@@ -14,7 +14,7 @@ $pass = mysql_escape_string($pass);
 $cause = mysql_escape_string($cause);
 if (is_numeric($koin) && strlen($pass) > 0 && strlen($user) > 0) {
     if ($koin >= 0) {
-        if ($pass == "gdgonline@2017") {
+        if ($pass == "dcaddxu@123") {
             try {
                 $db->query("SET NAMES 'UTF8'");
                 $sql = "select * from auth_user where username='" . $user . "' limit 0,1";
